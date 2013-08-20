@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<component>
+
+<registration
+	description="ScheduleMaker"
+	progid="ScheduleMaker.WSC"
+	version="1.00"
+	classid="{9b2b0889-2eb8-4ce1-bdc7-4ab2239abc13}"
+>
+</registration>
+
+<public>
+<% _.forEach(methods, function(method) { %>
+	<method name="<%= method %>">
+	</method>
+<% }) %>
+</public>
+
+<script language="JScript">
+<![CDATA[
+
+<%= code %>
+
+]]>
+</script>
+
+</component>
