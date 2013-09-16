@@ -34,6 +34,7 @@ buildSchedule = () ->
 			if validEnemy
 				# add to schedule
 				schedule.push
+					num: schedule.length + 1
 					startTime: clock.toString()
 					endTime: clock.forward(step).toString()
 					team1: team.name
