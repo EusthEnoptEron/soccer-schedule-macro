@@ -20,6 +20,7 @@ namespace SoccerScheduler.Elements
         public string Name { get; set; }
 
 
+        [Serializable]
         class TeamList : TwoWayList<Team>
         {
             private readonly Category Category;

@@ -4,6 +4,7 @@ using System.Text;
 
 namespace SoccerScheduler.Elements
 {
+   [Serializable]
     abstract class TwoWayList<E> : IList<E>
     {
         IList<E> elements = new List<E>();

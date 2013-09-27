@@ -7,7 +7,6 @@ namespace SoccerScheduler.Elements
     [Serializable()]
     abstract class Element
     {
-
         public Element Instance
         {
             get
